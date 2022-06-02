@@ -28,6 +28,8 @@ while True:
     cpu_choice = random.choice(options)
     player1_choice = input("pick an option: ").upper()
     
+    print(f"cpu's choice: {cpu_choice}")
+    
     
     if player1_choice not in options:
         print("not amongst option , try again!")
